@@ -1,20 +1,17 @@
 
 # lines starting with the # symbol are comments
 
-# Took out phc out of ABI1 to see oscillation effects
 #
 # Abscisic Acid signaling model
 #
 # Node initialization below, 
 # ( all other nodes are set to random values in the program)
-#AB
 
 Closure = SPP1 = GEF1410 = H2OEfflux = Microtubule = Ca2ATPase = RCARs = ROS = RBOH = pHc = Ca2c = NO = CaIM = KEfflux = CIS = Vacidification = OST1 = S1P = GPA1 = PLDa = PA = NIA12 = NOGC1 = cGMP= Actin = InsP3 = CPK213 = MAPK912 = False
 
 ABA = NtSyp121 = ARP23 = ABH1 = ERA1 = GAPC = MRP5 = NAD = NADPH = GCR1 = Nitrite = PC = PtdInsP3 = PtdInsP4 = Malate = HATPase= ABI1 = ABI2 = HAB1 = PP2CA= RCN1 = SCAB1 = Sph = GTP = DAGK = CPK6 = CPK23 = True
 
 
-#With or without KAP
 # Model specification syntax
 #
 # rank: node1 *=  node1 and node2 or node3  ... etc
@@ -23,11 +20,10 @@ ABA = NtSyp121 = ARP23 = ABH1 = ERA1 = GAPC = MRP5 = NAD = NADPH = GCR1 = Nitrit
 #
 # 1: A *= A or B
 #
-# means that the new value of A is equal to the old values 
+# means that the new value of A equals the old values 
 # of A and B combined with the operator 'or'
 #
 # model starts below
-# TCTP random intial condition can show calcium independent closure. 
 
 1: VATPase* = Ca2c
 1: DAG*= PIP2 and PLC
