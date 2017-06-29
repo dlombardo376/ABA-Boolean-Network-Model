@@ -81,5 +81,5 @@ ABA = NtSyp121 = ARP23 = ABH1 = ERA1 = GAPC = MRP5 = NAD = NADPH = GCR1 = Nitrit
 1: H2OEfflux*=(AnionEM and PIP21 and KEfflux) and not Malate
 1: RBOH*= pHc and not ABI1 and PtdInsP3 and OST1 and GPA1 and PA and RCN1
 1: CaIM*=(NtSyp121 and GHR1 and MRP5) or not ABH1 or not ERA1 or Actin
-1: SLAC1* = (CPK6 or CPK23 or CPK213 or MAPK912) and OST1 and GHR1 and not ABI1 and not PP2CA and not ABI2 and pHc
+1: SLAC1* = (CPK6 or CPK23 or CPK213) and MAPK912 and OST1 and GHR1 and not ABI1 and not PP2CA and not ABI2 and pHc
 1: PLC*=Ca2c
